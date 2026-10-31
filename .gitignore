@@ -3,3 +3,9 @@ dist/
 .env
 .env.*
 !.env.example
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
